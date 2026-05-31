@@ -9,7 +9,7 @@ COPY	package*.json ./
 
 RUN	npm install
 
-COPY	..
+COPY	. .
 COPY	.env.sample .env
 
 EXPOSE 	5000
